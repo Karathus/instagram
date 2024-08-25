@@ -3,9 +3,9 @@ body {
     font-family: "Roboto";
 }
 
-header{
+header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     height: 54px;
@@ -13,7 +13,7 @@ header{
     background-color: #ffffff;
 }
 
-.topo{
+.topo {
     display: flex;
     width: 935px;
     align-items: center;
@@ -22,7 +22,7 @@ header{
 
 .divisoria {
     height: 1px;
-    width: 99.22vw;
+    width: 100%;
     background-color: #DBDBDB;
     position: fixed;
     left: 0;
@@ -40,7 +40,7 @@ header ion-icon {
 }
 
 main {
-    width: 100vw;
+    width: 99vw;
     justify-content: center;
     padding-top: 54px;
     display: flex;
