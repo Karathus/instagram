@@ -1,0 +1,202 @@
+body {
+    max-width: 935px;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+
+header {
+    position: fixed;
+    display: flex;
+    height: 54px;
+    width: 950px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.divisoria {
+    height: 1px;
+    width: 99.22vw;
+    background-color: #DBDBDB;
+    position: fixed;
+    left: 0;
+    top: 53px;
+    z-index: 1;
+}
+
+header ion-icon {
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 29px;
+    width: 103px;
+}
+
+main {
+    padding-top: 54px;
+    display: flex;
+}
+
+.principal {
+    max-width: 614px;
+}
+
+.stories {
+    height: 118px;
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+    border: 1px solid #DBDBDB;
+    overflow: hidden;
+}
+
+.storie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 18px;
+}
+
+.storie h3 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.feed {
+    margin-top: 24px;
+}
+
+.postagem {
+    border: 1px solid #DBDBDB;
+    margin-bottom: 60px;
+}
+
+.autor {
+    display: flex;
+    height: 61px;
+    align-items: center;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.autor h3 {
+    padding: 15px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    padding: 10px 15px;
+}
+
+.ccc ion-icon {
+    margin-right: 14px;
+}
+
+.lateral {
+    max-width: 300px;
+    margin-left: 30px;
+    margin-top: 57px;
+}
+
+.meu-perfil {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.nome h1,
+.nome h2 {
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-left: 15px;
+}
+
+.nome h1 {
+    font-weight: 500;
+    color: #262626;
+}
+
+.nome h2 {
+    font-weight: 300;
+    color: #8E8E8E;
+}
+
+.sugestoes h2 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8E8E8E;
+    margin-bottom: 17px;
+}
+
+.sugestao {
+    display: flex;
+    height: 32px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.sugestao h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 11px;
+}
+
+.sugestao p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #139EF2;
+}
+
+.sugestao div {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes {
+    margin-top: 27px;
+}
+
+.informacoes p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+    margin-bottom: 18px;
+}
+
+ion-icon {
+    height: 22px;
+    width: 22px;
+}
+
+.storie img,
+.meu-perfil img {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.autor img,
+.sugestao img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.conteudo img {
+    width: 100%;
+    height: 100%;
+}
+
+.barra-inferior {
+    display: none;
+}

@@ -1,0 +1,53 @@
+@media (max-width: 935px) {
+    .lateral {
+        display: none;
+    }
+
+    main {
+        justify-content: center;
+    }
+
+    .icones {
+        position: fixed;
+        right: 36px;
+    }
+
+    .logo {
+        position: fixed;
+        left: 36px;
+    }
+}
+
+@media (max-width: 614px) {
+    .icones {
+        display: none;
+    }
+
+    .logo {
+        top: 27px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .barra-inferior {
+        width: 100vw;
+        height: 54px;
+        padding-right: 20px;
+        padding-left: 8px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
+}
