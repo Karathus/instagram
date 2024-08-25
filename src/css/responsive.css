@@ -38,6 +38,16 @@
         flex-direction: column;
     }
 
+    .stories {
+        margin: 0;
+        border: 0;
+        background-color: #fafafa;
+    }
+
+    .feed {
+        margin: 0;
+    }
+
     .barra-inferior {
         width: 100vw;
         height: 54px;
