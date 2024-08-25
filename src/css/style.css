@@ -1,6 +1,7 @@
 body {
     max-width: 935px;
     font-family: "Roboto";
+    overflow-x: hidden;
 }
 
 header {
