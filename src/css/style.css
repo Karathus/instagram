@@ -1,19 +1,23 @@
 body {
     max-width: 935px;
-    margin: 0 auto;
     font-family: "Roboto";
 }
 
-header {
+header{
     position: fixed;
+    width: 100vw;
     display: flex;
+    justify-content: center;
     height: 54px;
-    width: 950px;
-    padding-right: 15px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.topo{
+    display: flex;
+    width: 935px;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFFFFF;
-    z-index: 1;
 }
 
 .divisoria {
@@ -36,8 +40,11 @@ header ion-icon {
 }
 
 main {
+    width: 100vw;
+    justify-content: center;
     padding-top: 54px;
     display: flex;
+    background-color: #fafafa;
 }
 
 .principal {
@@ -51,6 +58,7 @@ main {
     margin-top: 34px;
     border: 1px solid #DBDBDB;
     overflow: hidden;
+    background-color: #ffffff;
 }
 
 .storie {
@@ -72,6 +80,7 @@ main {
 .postagem {
     border: 1px solid #DBDBDB;
     margin-bottom: 60px;
+    background-color: #ffffff;
 }
 
 .autor {
